@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: UserProvider
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.98.174.241:3306/db_yihai?useUnicode=true&characterEncoding=utf8 #serverTimezone=UTC
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+  rabbitmq:
+    host:  47.98.174.241
+    port: 5672
+    username: admin
+    password: 123456
+server:
+  port: 8901
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://39.105.189.141/EurekaServer/eureka/  #注册中心的地址
+mybatis:
+  mapper-locations: classpath*:/mapper/*.xml

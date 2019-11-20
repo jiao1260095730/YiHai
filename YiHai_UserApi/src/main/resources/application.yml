@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: UserApi
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 9011
+#ribbon:
+#  ReadTimeOut: 10000
+#  ConnectTimeOut: 10000
+#  MaxAutoRetris: 10  #重试次数
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://39.105.189.141/EurekaServer/eureka/  #注册中心的地址

@@ -26,7 +26,7 @@
         <yihai.version>0.1</yihai.version>
         <mybatisboot.version>2.1.1</mybatisboot.version>
         <druid.version>1.1.20</druid.version>
-        <fastjson.version>1.2.58</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <aliyunsms.version>4.1.0</aliyunsms.version>
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
         <swagger.version>2.9.2</swagger.version>
